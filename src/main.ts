@@ -35,9 +35,6 @@ export async function extractBlocksFromPDF(pdfPath : string, pagesToProcess?: nu
       blocks: true,
     });
 
-    //data.width = pngPages[i].width;
-    //data.height = pngPages[i].height;
-
     pageBlocks.push({
       ...data,
       width: pngPages[i].width,

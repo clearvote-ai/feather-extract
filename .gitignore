@@ -4,3 +4,4 @@ node_modules
 .vscode
 __test_data__
 eng.traineddata
+dist
